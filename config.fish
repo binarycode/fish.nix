@@ -5,3 +5,6 @@ end
 
 # disable welcome message
 set fish_greeting
+
+# devbox prompt breaks starship
+set -x devbox_no_prompt true
